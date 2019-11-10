@@ -1,4 +1,4 @@
-## Robot car controlled with a Joy-Con from Nintendo Switch
+## Robot car controlled with Joy-Con from Nintendo Switch
 
 ### Connecting Joy-Con to Raspberry
 Followed https://raspberry-valley.azurewebsites.net/Map-Bluetooth-Controller-using-Python/
@@ -20,6 +20,7 @@ Connection successful
 Check device name
 ```
 # ls /dev/input/event*
+/dev/input/event0
 ```
 
 ### Finding Joy-Con event codes
@@ -32,7 +33,7 @@ Select the device event number [0-0]:
 > (...)
 > Testing ... (interrupt to exit)
 ```
-Press buttons and observce output, e.g.
+Press buttons and observe the output, e.g.
 ```
 Event: time 1573424584.634931, type 3 (EV_ABS), code 17 (ABS_HAT0Y), value 1
 Event: time 1573424584.634931, -------------- SYN_REPORT ------------
