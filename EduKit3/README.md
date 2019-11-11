@@ -1,5 +1,7 @@
 ## Robot car controlled with Joy-Con from Nintendo Switch
 
+![](video.gif)
+
 ### Connecting Joy-Con to Raspberry
 Followed https://raspberry-valley.azurewebsites.net/Map-Bluetooth-Controller-using-Python/
 
